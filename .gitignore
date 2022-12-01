@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Dont want to push my puzzle input
+*.txt
