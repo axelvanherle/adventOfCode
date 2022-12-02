@@ -14,6 +14,7 @@ int main()
 	ifstream myfile("input.txt");
 
 	int score = 0;
+	int score2 = 0;
 
 	if (myfile.is_open())
 	{
