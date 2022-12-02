@@ -4,9 +4,6 @@
 
 using namespace std;
 
-// A - X = Rock
-// B - Y = Paper
-// C - Z = Scissors
 int main()
 {
 	string line;
