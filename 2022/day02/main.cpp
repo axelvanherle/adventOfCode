@@ -7,7 +7,6 @@ using namespace std;
 // A - X = Rock
 // B - Y = Paper
 // C - Z = Scissors
-
 int main()
 {
 	string line;
@@ -33,7 +32,6 @@ int main()
 				{
 					// Do nothing
 					score2 += 2;
-					score2 += 1;
 				}
 				else if (line[0] == 'C')
 				{
