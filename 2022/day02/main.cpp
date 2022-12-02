@@ -27,48 +27,62 @@ int main()
 				if (line[0] == 'A')
 				{
 					score += 3;
+					score2 += 3;
 				}
 				else if (line[0] == 'B')
 				{
 					// Do nothing
+					score2 += 2;
+					score2 += 1;
 				}
 				else if (line[0] == 'C')
 				{
 					score += 6;
+					score2 += 2;
 				}
 			}
+
 			if (line[2] == 'Y')
 			{
 				score += 2;
+				score2 += 3;
 
 				if (line[0] == 'A')
 				{
 					score += 6;
+					score2 += 1;
 				}
 				else if (line[0] == 'B')
 				{
 					score += 3;
+					score2 += 2;
 				}
 				else if (line[0] == 'C')
 				{
 					// Do nothing
+					score2 += 3;
 				}
 			}
+
 			if (line[2] == 'Z')
 			{
 				score += 3;
+				score2 += 6;
 
 				if (line[0] == 'A')
 				{
 					// Do nothing
+					score2 += 2;
 				}
 				else if (line[0] == 'B')
 				{
 					score += 6;
+					score2 += 3;
 				}
 				else if (line[0] == 'C')
 				{
 					score += 3;
+					score2 += 1;
 				}
 			}
 		}
@@ -81,6 +95,7 @@ int main()
 	}
 
 	cout << "Score is " << score << endl;
+	cout << "Score2 is " << score2 << endl;
 
 	return 0;
 }
