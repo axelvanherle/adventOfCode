@@ -4,6 +4,10 @@
 
 using namespace std;
 
+// A - X = Rock
+// B - Y = Paper
+// C - Z = Scissors
+
 int main()
 {
 	string line;
@@ -15,52 +19,57 @@ int main()
 	{
 		while (getline(myfile, line))
 		{
-			if (line[0] == 'A')
+			if (line[2] == 'X')
 			{
-				if (line[2] == 'X')
+				score += 1;
+
+				if (line[0] == 'A')
 				{
-					cout << line << "test" << endl;
+					score += 3;
 				}
-				if (line[2] == 'Y')
+				else if (line[0] == 'B')
 				{
-					cout << line << "test" << endl;
+					// Do nothing
 				}
-				if (line[2] == 'Z')
+				else if (line[0] == 'C')
 				{
-					cout << line << "test" << endl;
+					score += 6;
 				}
 			}
-			else if (line[0] == 'B')
+			if (line[2] == 'Y')
 			{
-				if (line[2] == 'X')
+				score += 2;
+
+				if (line[0] == 'A')
 				{
-					cout << line << "test" << endl;
+					score += 6;
 				}
-				if (line[2] == 'Y')
+				else if (line[0] == 'B')
 				{
-					cout << line << "test" << endl;
+					score += 3;
 				}
-				if (line[2] == 'Z')
+				else if (line[0] == 'C')
 				{
-					cout << line << "test" << endl;
+					// Do nothing
 				}
 			}
-			else if (line[0] == 'C')
+			if (line[2] == 'Z')
 			{
-				if (line[2] == 'X')
+				score += 3;
+
+				if (line[0] == 'A')
 				{
-					cout << line << "test" << endl;
+					// Do nothing
 				}
-				if (line[2] == 'Y')
+				else if (line[0] == 'B')
 				{
-					cout << line << "test" << endl;
+					score += 6;
 				}
-				if (line[2] == 'Z')
+				else if (line[0] == 'C')
 				{
-					cout << line << "test" << endl;
+					score += 3;
 				}
 			}
-			
 		}
 		myfile.close();
 	}
@@ -69,6 +78,8 @@ int main()
 	{
 		cout << "Unable to open file";
 	}
+
+	cout << "Score is " << score << endl;
 
 	return 0;
 }
