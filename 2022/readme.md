@@ -3,7 +3,7 @@
 How long it took me to complete is an estimate, its not exact.
 
 - [X] Day 1
-  - 1 Hour
+  - 1 Hour 20 Minutes
 - [X] Day 2
   - 45 Minutes
 - [X] Day 3
@@ -31,4 +31,4 @@ How long it took me to complete is an estimate, its not exact.
 - [ ] Day 24
 - [ ] Day 25
 
-Total time spent: 2 Hours 15 Minutes
+Total time spent: 2 Hours 35 Minutes
