@@ -1,8 +1,13 @@
 # Days completed:
 
+How long it took me to complete is an estimate, its not exact.
+
 - [X] Day 1
+  - 1 Hour
 - [X] Day 2
-- [ ] Day 3
+  - 45 Minutes
+- [X] Day 3
+  - 1 Hour 30 Minutes
 - [ ] Day 4
 - [ ] Day 5
 - [ ] Day 6
@@ -25,3 +30,5 @@
 - [ ] Day 23
 - [ ] Day 24
 - [ ] Day 25
+
+Total time spent: 2 Hours 15 Minutes
