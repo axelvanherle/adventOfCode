@@ -21,9 +21,8 @@ int main()
 			myfile >> num1Min >> trash >> num1Max >> trash >> num2Min >> trash >> num2Max;
 			cout << num1Min << trash << num1Max << trash << num2Min << trash << num2Max << endl;
 
-			if(num1Min > num2Max || num2Min > num1Max)
+			if (num1Min > num2Max || num2Min > num1Max)
 			{
-
 			}
 			else
 			{
