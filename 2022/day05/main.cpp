@@ -61,7 +61,7 @@ int main()
 				stack[b].pop_back();
 			}
 
-			stack2[c] += stack2[b].substr(stack2[b].size() - a);
+			stack2[c] = stack2[c] + (stack2[b].substr(stack2[b].size() - a));
 			stack2[b] = stack2[b].substr(0, stack2[b].size() - a);
 		}
 
